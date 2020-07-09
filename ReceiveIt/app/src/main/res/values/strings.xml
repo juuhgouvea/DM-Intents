@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">ReceiveIt</string>
+    <string name="receive_title">Receive Text</string>
+</resources>

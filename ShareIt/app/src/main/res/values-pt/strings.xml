@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShareIt</string>
+    <string name="write_message_placeholder">Escreva aqui o seu texto</string>
+    <string name="share_button">Compartilhar</string>
+</resources>
