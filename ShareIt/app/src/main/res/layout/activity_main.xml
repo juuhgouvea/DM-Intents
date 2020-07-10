@@ -10,7 +10,7 @@
         android:id="@+id/txtMessage"
         android:layout_width="256dp"
         android:layout_height="51dp"
-        android:layout_marginTop="196dp"
+        android:layout_marginTop="144dp"
         android:ems="10"
         android:hint="@string/write_message_placeholder"
         android:inputType="textPersonName"
@@ -22,11 +22,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/buttonShare"
-        android:layout_width="113dp"
-        android:layout_height="49dp"
+        android:id="@+id/buttonShareText"
+        android:layout_width="181dp"
+        android:layout_height="45dp"
         android:background="#4cd137"
-        android:text="@string/share_button"
+        android:text="@string/share_text_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,4 +43,17 @@
         app:layout_constraintHorizontal_bias="0.92"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/ic_share_black_32dp" />
+
+    <Button
+        android:id="@+id/buttonShareImage"
+        android:layout_width="181dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="260dp"
+        android:background="#4cd137"
+        android:text="@string/share_image_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonShare"
+        app:layout_constraintVertical_bias="0.405" />
 </androidx.constraintlayout.widget.ConstraintLayout>

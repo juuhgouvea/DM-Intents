@@ -10,10 +10,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        buttonShare.setOnClickListener{ handleShare() }
+        buttonShareText.setOnClickListener{ handleShareText() }
+        buttonShareImage.setOnClickListener{ handleShareImage() }
     }
 
-    fun handleShare(){
+    fun handleShareText(){
         var message = txtMessage.text.toString()
         val shareIntent = Intent(Intent.ACTION_SEND)
         with(shareIntent) {
@@ -22,5 +23,9 @@ class MainActivity : AppCompatActivity() {
             putExtra(Intent.EXTRA_TEXT, message)
         }
         startActivity(shareIntent)
+    }
+
+    fun handleShareImage(){
+
     }
 }
